@@ -186,7 +186,6 @@ class InfoTableViewController: UITableViewController,UITextViewDelegate {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "dd.MM.yyyy"
         self.datePickerTextField.text = dateFormatter.string(from: datePicker.date)
-        self.dateCell.accessoryType = .none
     }
     public func updateCategotyLabel(labelName : String){
         self.categoryLabel.text = labelName
