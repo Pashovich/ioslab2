@@ -1,0 +1,12 @@
+//
+//  api.xcconfig
+//  NotForgot
+//
+//  Created by administrator on 31.03.2021.
+//  Copyright © 2021 administrator. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+API_BASE_URL = practice.mobile.kreosoft.ru/api/
