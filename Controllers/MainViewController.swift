@@ -112,10 +112,9 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     var loaded  = false
     var refreshControl = UIRefreshControl()
     @objc func exitController(){
+        
         UserDefaults.standard.removeObject(forKey: "data")
-        let vc = storyboard?.instantiateViewController(identifier: "LoginId") as! LoginViewController
-        vc.modalPresentationStyle = .fullScreen
-        present(vc, animated: true, completion: nil)
+        self.dismiss(animated: true, completion: nil)
         
     }
     private func makeTableView(){
